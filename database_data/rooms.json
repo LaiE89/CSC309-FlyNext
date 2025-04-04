@@ -1,0 +1,3138 @@
+[
+  {
+    "id": 1,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 143.3,
+    "images": [
+      "/api/upload/misc/generic/8.jpg",
+      "/api/upload/misc/generic/9.jpg"
+    ],
+    "available": true,
+    "hotelId": 1
+  },
+  {
+    "id": 2,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 146.82,
+    "images": [
+      "/api/upload/misc/generic/8.jpg",
+      "/api/upload/misc/generic/7.jpg"
+    ],
+    "available": true,
+    "hotelId": 1
+  },
+  {
+    "id": 3,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 290.79,
+    "images": [
+      "/api/upload/misc/generic/4.jpg",
+      "/api/upload/misc/generic/6.jpg"
+    ],
+    "available": false,
+    "hotelId": 1
+  },
+  {
+    "id": 4,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 152.85,
+    "images": [
+      "/api/upload/misc/generic/2.jpg",
+      "/api/upload/misc/generic/2.jpg"
+    ],
+    "available": true,
+    "hotelId": 2
+  },
+  {
+    "id": 5,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 98.24,
+    "images": [
+      "/api/upload/misc/generic/6.jpg",
+      "/api/upload/misc/generic/8.jpg"
+    ],
+    "available": true,
+    "hotelId": 2
+  },
+  {
+    "id": 6,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 273.36,
+    "images": [
+      "/api/upload/misc/generic/1.jpg",
+      "/api/upload/misc/generic/8.jpg"
+    ],
+    "available": false,
+    "hotelId": 2
+  },
+  {
+    "id": 7,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 99.8,
+    "images": [
+      "/api/upload/misc/generic/5.jpg",
+      "/api/upload/misc/generic/5.jpg"
+    ],
+    "available": false,
+    "hotelId": 2
+  },
+  {
+    "id": 8,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 207.53,
+    "images": [
+      "/api/upload/misc/generic/7.jpg",
+      "/api/upload/misc/generic/1.jpg"
+    ],
+    "available": false,
+    "hotelId": 2
+  },
+  {
+    "id": 9,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 108.46,
+    "images": [
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/6.jpg"
+    ],
+    "available": true,
+    "hotelId": 3
+  },
+  {
+    "id": 10,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 264.41,
+    "images": [
+      "/api/upload/misc/generic/9.jpg",
+      "/api/upload/misc/generic/8.jpg"
+    ],
+    "available": false,
+    "hotelId": 3
+  },
+  {
+    "id": 11,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 225.78,
+    "images": [
+      "/api/upload/misc/generic/10.jpg",
+      "/api/upload/misc/generic/6.jpg"
+    ],
+    "available": true,
+    "hotelId": 3
+  },
+  {
+    "id": 12,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 109.37,
+    "images": [
+      "/api/upload/misc/generic/9.jpg",
+      "/api/upload/misc/generic/5.jpg"
+    ],
+    "available": true,
+    "hotelId": 3
+  },
+  {
+    "id": 13,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 196.12,
+    "images": [
+      "/api/upload/misc/generic/8.jpg",
+      "/api/upload/misc/generic/9.jpg"
+    ],
+    "available": true,
+    "hotelId": 3
+  },
+  {
+    "id": 14,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 221.22,
+    "images": [
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/2.jpg"
+    ],
+    "available": true,
+    "hotelId": 4
+  },
+  {
+    "id": 15,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 253.06,
+    "images": [
+      "/api/upload/misc/generic/2.jpg",
+      "/api/upload/misc/generic/10.jpg"
+    ],
+    "available": true,
+    "hotelId": 4
+  },
+  {
+    "id": 16,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 245.38,
+    "images": [
+      "/api/upload/misc/generic/9.jpg",
+      "/api/upload/misc/generic/3.jpg"
+    ],
+    "available": true,
+    "hotelId": 4
+  },
+  {
+    "id": 17,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 220.25,
+    "images": [
+      "/api/upload/misc/generic/6.jpg",
+      "/api/upload/misc/generic/8.jpg"
+    ],
+    "available": false,
+    "hotelId": 4
+  },
+  {
+    "id": 18,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 106.48,
+    "images": [
+      "/api/upload/misc/generic/10.jpg",
+      "/api/upload/misc/generic/9.jpg"
+    ],
+    "available": false,
+    "hotelId": 4
+  },
+  {
+    "id": 19,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 122.27,
+    "images": [
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/4.jpg"
+    ],
+    "available": false,
+    "hotelId": 5
+  },
+  {
+    "id": 20,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 107.41,
+    "images": [
+      "/api/upload/misc/generic/7.jpg",
+      "/api/upload/misc/generic/7.jpg"
+    ],
+    "available": false,
+    "hotelId": 5
+  },
+  {
+    "id": 21,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 266.52,
+    "images": [
+      "/api/upload/misc/generic/8.jpg",
+      "/api/upload/misc/generic/8.jpg"
+    ],
+    "available": false,
+    "hotelId": 5
+  },
+  {
+    "id": 22,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 223.98,
+    "images": [
+      "/api/upload/misc/generic/6.jpg",
+      "/api/upload/misc/generic/1.jpg"
+    ],
+    "available": true,
+    "hotelId": 6
+  },
+  {
+    "id": 23,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 121.35,
+    "images": [
+      "/api/upload/misc/generic/5.jpg",
+      "/api/upload/misc/generic/4.jpg"
+    ],
+    "available": true,
+    "hotelId": 6
+  },
+  {
+    "id": 24,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 255.14,
+    "images": [
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/4.jpg"
+    ],
+    "available": false,
+    "hotelId": 6
+  },
+  {
+    "id": 25,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 298.14,
+    "images": [
+      "/api/upload/misc/generic/5.jpg",
+      "/api/upload/misc/generic/8.jpg"
+    ],
+    "available": false,
+    "hotelId": 6
+  },
+  {
+    "id": 26,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 290.27,
+    "images": [
+      "/api/upload/misc/generic/1.jpg",
+      "/api/upload/misc/generic/9.jpg"
+    ],
+    "available": false,
+    "hotelId": 7
+  },
+  {
+    "id": 27,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 213.49,
+    "images": [
+      "/api/upload/misc/generic/5.jpg",
+      "/api/upload/misc/generic/2.jpg"
+    ],
+    "available": false,
+    "hotelId": 7
+  },
+  {
+    "id": 28,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 239.25,
+    "images": [
+      "/api/upload/misc/generic/6.jpg",
+      "/api/upload/misc/generic/5.jpg"
+    ],
+    "available": false,
+    "hotelId": 7
+  },
+  {
+    "id": 29,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 291.73,
+    "images": [
+      "/api/upload/misc/generic/5.jpg",
+      "/api/upload/misc/generic/8.jpg"
+    ],
+    "available": true,
+    "hotelId": 7
+  },
+  {
+    "id": 30,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 259.8,
+    "images": [
+      "/api/upload/misc/generic/9.jpg",
+      "/api/upload/misc/generic/4.jpg"
+    ],
+    "available": false,
+    "hotelId": 7
+  },
+  {
+    "id": 31,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 148.82,
+    "images": [
+      "/api/upload/misc/generic/9.jpg",
+      "/api/upload/misc/generic/5.jpg"
+    ],
+    "available": false,
+    "hotelId": 8
+  },
+  {
+    "id": 32,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 200.28,
+    "images": [
+      "/api/upload/misc/generic/5.jpg",
+      "/api/upload/misc/generic/5.jpg"
+    ],
+    "available": true,
+    "hotelId": 8
+  },
+  {
+    "id": 33,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 167.13,
+    "images": [
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/8.jpg"
+    ],
+    "available": false,
+    "hotelId": 8
+  },
+  {
+    "id": 34,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 128.25,
+    "images": [
+      "/api/upload/misc/generic/5.jpg",
+      "/api/upload/misc/generic/2.jpg"
+    ],
+    "available": false,
+    "hotelId": 8
+  },
+  {
+    "id": 35,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 247.42,
+    "images": [
+      "/api/upload/misc/generic/8.jpg",
+      "/api/upload/misc/generic/8.jpg"
+    ],
+    "available": false,
+    "hotelId": 9
+  },
+  {
+    "id": 36,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 243.53,
+    "images": [
+      "/api/upload/misc/generic/4.jpg",
+      "/api/upload/misc/generic/9.jpg"
+    ],
+    "available": false,
+    "hotelId": 9
+  },
+  {
+    "id": 37,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 273.07,
+    "images": [
+      "/api/upload/misc/generic/7.jpg",
+      "/api/upload/misc/generic/1.jpg"
+    ],
+    "available": false,
+    "hotelId": 9
+  },
+  {
+    "id": 38,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 147.01,
+    "images": [
+      "/api/upload/misc/generic/9.jpg",
+      "/api/upload/misc/generic/1.jpg"
+    ],
+    "available": false,
+    "hotelId": 9
+  },
+  {
+    "id": 39,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 197.62,
+    "images": [
+      "/api/upload/misc/generic/5.jpg",
+      "/api/upload/misc/generic/9.jpg"
+    ],
+    "available": true,
+    "hotelId": 9
+  },
+  {
+    "id": 40,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 226.94,
+    "images": [
+      "/api/upload/misc/generic/6.jpg",
+      "/api/upload/misc/generic/1.jpg"
+    ],
+    "available": false,
+    "hotelId": 10
+  },
+  {
+    "id": 41,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 158.56,
+    "images": [
+      "/api/upload/misc/generic/4.jpg",
+      "/api/upload/misc/generic/8.jpg"
+    ],
+    "available": true,
+    "hotelId": 10
+  },
+  {
+    "id": 42,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 240.48,
+    "images": [
+      "/api/upload/misc/generic/7.jpg",
+      "/api/upload/misc/generic/6.jpg"
+    ],
+    "available": true,
+    "hotelId": 10
+  },
+  {
+    "id": 43,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 180.02,
+    "images": [
+      "/api/upload/misc/generic/6.jpg",
+      "/api/upload/misc/generic/10.jpg"
+    ],
+    "available": true,
+    "hotelId": 11
+  },
+  {
+    "id": 44,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 281.87,
+    "images": [
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/2.jpg"
+    ],
+    "available": false,
+    "hotelId": 11
+  },
+  {
+    "id": 45,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 205.85,
+    "images": [
+      "/api/upload/misc/generic/8.jpg",
+      "/api/upload/misc/generic/3.jpg"
+    ],
+    "available": true,
+    "hotelId": 11
+  },
+  {
+    "id": 46,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 200.54,
+    "images": [
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/10.jpg"
+    ],
+    "available": true,
+    "hotelId": 11
+  },
+  {
+    "id": 47,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 137.93,
+    "images": [
+      "/api/upload/misc/generic/9.jpg",
+      "/api/upload/misc/generic/3.jpg"
+    ],
+    "available": true,
+    "hotelId": 11
+  },
+  {
+    "id": 48,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 109.4,
+    "images": [
+      "/api/upload/misc/generic/1.jpg",
+      "/api/upload/misc/generic/5.jpg"
+    ],
+    "available": false,
+    "hotelId": 12
+  },
+  {
+    "id": 49,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 279.4,
+    "images": [
+      "/api/upload/misc/generic/1.jpg",
+      "/api/upload/misc/generic/5.jpg"
+    ],
+    "available": false,
+    "hotelId": 12
+  },
+  {
+    "id": 50,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 211.51,
+    "images": [
+      "/api/upload/misc/generic/7.jpg",
+      "/api/upload/misc/generic/5.jpg"
+    ],
+    "available": true,
+    "hotelId": 12
+  },
+  {
+    "id": 51,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 171.81,
+    "images": [
+      "/api/upload/misc/generic/9.jpg",
+      "/api/upload/misc/generic/5.jpg"
+    ],
+    "available": false,
+    "hotelId": 13
+  },
+  {
+    "id": 52,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 112.2,
+    "images": [
+      "/api/upload/misc/generic/7.jpg",
+      "/api/upload/misc/generic/1.jpg"
+    ],
+    "available": true,
+    "hotelId": 13
+  },
+  {
+    "id": 53,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 270.33,
+    "images": [
+      "/api/upload/misc/generic/8.jpg",
+      "/api/upload/misc/generic/10.jpg"
+    ],
+    "available": true,
+    "hotelId": 13
+  },
+  {
+    "id": 54,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 118.38,
+    "images": [
+      "/api/upload/misc/generic/8.jpg",
+      "/api/upload/misc/generic/4.jpg"
+    ],
+    "available": true,
+    "hotelId": 14
+  },
+  {
+    "id": 55,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 101.62,
+    "images": [
+      "/api/upload/misc/generic/6.jpg",
+      "/api/upload/misc/generic/1.jpg"
+    ],
+    "available": true,
+    "hotelId": 14
+  },
+  {
+    "id": 56,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 84.3,
+    "images": [
+      "/api/upload/misc/generic/7.jpg",
+      "/api/upload/misc/generic/3.jpg"
+    ],
+    "available": true,
+    "hotelId": 14
+  },
+  {
+    "id": 57,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 214.5,
+    "images": [
+      "/api/upload/misc/generic/1.jpg",
+      "/api/upload/misc/generic/10.jpg"
+    ],
+    "available": false,
+    "hotelId": 15
+  },
+  {
+    "id": 58,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 137.43,
+    "images": [
+      "/api/upload/misc/generic/1.jpg",
+      "/api/upload/misc/generic/4.jpg"
+    ],
+    "available": false,
+    "hotelId": 15
+  },
+  {
+    "id": 59,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 218.86,
+    "images": [
+      "/api/upload/misc/generic/8.jpg",
+      "/api/upload/misc/generic/4.jpg"
+    ],
+    "available": false,
+    "hotelId": 15
+  },
+  {
+    "id": 60,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 153.54,
+    "images": [
+      "/api/upload/misc/generic/8.jpg",
+      "/api/upload/misc/generic/3.jpg"
+    ],
+    "available": true,
+    "hotelId": 15
+  },
+  {
+    "id": 61,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 190.52,
+    "images": [
+      "/api/upload/misc/generic/4.jpg",
+      "/api/upload/misc/generic/3.jpg"
+    ],
+    "available": false,
+    "hotelId": 16
+  },
+  {
+    "id": 62,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 175.6,
+    "images": [
+      "/api/upload/misc/generic/9.jpg",
+      "/api/upload/misc/generic/1.jpg"
+    ],
+    "available": false,
+    "hotelId": 16
+  },
+  {
+    "id": 63,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 209.35,
+    "images": [
+      "/api/upload/misc/generic/9.jpg",
+      "/api/upload/misc/generic/10.jpg"
+    ],
+    "available": false,
+    "hotelId": 16
+  },
+  {
+    "id": 64,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 93.52,
+    "images": [
+      "/api/upload/misc/generic/10.jpg",
+      "/api/upload/misc/generic/1.jpg"
+    ],
+    "available": false,
+    "hotelId": 16
+  },
+  {
+    "id": 65,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 134.8,
+    "images": [
+      "/api/upload/misc/generic/8.jpg",
+      "/api/upload/misc/generic/6.jpg"
+    ],
+    "available": true,
+    "hotelId": 17
+  },
+  {
+    "id": 66,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 81.71,
+    "images": [
+      "/api/upload/misc/generic/7.jpg",
+      "/api/upload/misc/generic/2.jpg"
+    ],
+    "available": false,
+    "hotelId": 17
+  },
+  {
+    "id": 67,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 220.46,
+    "images": [
+      "/api/upload/misc/generic/2.jpg",
+      "/api/upload/misc/generic/5.jpg"
+    ],
+    "available": true,
+    "hotelId": 17
+  },
+  {
+    "id": 68,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 269.68,
+    "images": [
+      "/api/upload/misc/generic/6.jpg",
+      "/api/upload/misc/generic/1.jpg"
+    ],
+    "available": false,
+    "hotelId": 17
+  },
+  {
+    "id": 69,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 270.4,
+    "images": [
+      "/api/upload/misc/generic/4.jpg",
+      "/api/upload/misc/generic/9.jpg"
+    ],
+    "available": true,
+    "hotelId": 17
+  },
+  {
+    "id": 70,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 143.99,
+    "images": [
+      "/api/upload/misc/generic/2.jpg",
+      "/api/upload/misc/generic/4.jpg"
+    ],
+    "available": false,
+    "hotelId": 18
+  },
+  {
+    "id": 71,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 197.67,
+    "images": [
+      "/api/upload/misc/generic/6.jpg",
+      "/api/upload/misc/generic/1.jpg"
+    ],
+    "available": true,
+    "hotelId": 18
+  },
+  {
+    "id": 72,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 204.03,
+    "images": [
+      "/api/upload/misc/generic/2.jpg",
+      "/api/upload/misc/generic/2.jpg"
+    ],
+    "available": false,
+    "hotelId": 18
+  },
+  {
+    "id": 73,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 149.33,
+    "images": [
+      "/api/upload/misc/generic/4.jpg",
+      "/api/upload/misc/generic/2.jpg"
+    ],
+    "available": false,
+    "hotelId": 19
+  },
+  {
+    "id": 74,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 169.01,
+    "images": [
+      "/api/upload/misc/generic/1.jpg",
+      "/api/upload/misc/generic/9.jpg"
+    ],
+    "available": false,
+    "hotelId": 19
+  },
+  {
+    "id": 75,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 148.38,
+    "images": [
+      "/api/upload/misc/generic/2.jpg",
+      "/api/upload/misc/generic/2.jpg"
+    ],
+    "available": true,
+    "hotelId": 19
+  },
+  {
+    "id": 76,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 137.72,
+    "images": [
+      "/api/upload/misc/generic/7.jpg",
+      "/api/upload/misc/generic/8.jpg"
+    ],
+    "available": false,
+    "hotelId": 19
+  },
+  {
+    "id": 77,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 196.6,
+    "images": [
+      "/api/upload/misc/generic/4.jpg",
+      "/api/upload/misc/generic/6.jpg"
+    ],
+    "available": false,
+    "hotelId": 20
+  },
+  {
+    "id": 78,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 123.17,
+    "images": [
+      "/api/upload/misc/generic/1.jpg",
+      "/api/upload/misc/generic/4.jpg"
+    ],
+    "available": true,
+    "hotelId": 20
+  },
+  {
+    "id": 79,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 222.2,
+    "images": [
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/9.jpg"
+    ],
+    "available": false,
+    "hotelId": 20
+  },
+  {
+    "id": 80,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 165.76,
+    "images": [
+      "/api/upload/misc/generic/1.jpg",
+      "/api/upload/misc/generic/1.jpg"
+    ],
+    "available": true,
+    "hotelId": 20
+  },
+  {
+    "id": 81,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 141.53,
+    "images": [
+      "/api/upload/misc/generic/5.jpg",
+      "/api/upload/misc/generic/4.jpg"
+    ],
+    "available": false,
+    "hotelId": 21
+  },
+  {
+    "id": 82,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 80.79,
+    "images": [
+      "/api/upload/misc/generic/6.jpg",
+      "/api/upload/misc/generic/8.jpg"
+    ],
+    "available": true,
+    "hotelId": 21
+  },
+  {
+    "id": 83,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 273.69,
+    "images": [
+      "/api/upload/misc/generic/8.jpg",
+      "/api/upload/misc/generic/1.jpg"
+    ],
+    "available": false,
+    "hotelId": 21
+  },
+  {
+    "id": 84,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 117.86,
+    "images": [
+      "/api/upload/misc/generic/2.jpg",
+      "/api/upload/misc/generic/4.jpg"
+    ],
+    "available": false,
+    "hotelId": 21
+  },
+  {
+    "id": 85,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 209.53,
+    "images": [
+      "/api/upload/misc/generic/1.jpg",
+      "/api/upload/misc/generic/3.jpg"
+    ],
+    "available": true,
+    "hotelId": 21
+  },
+  {
+    "id": 86,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 247.87,
+    "images": [
+      "/api/upload/misc/generic/4.jpg",
+      "/api/upload/misc/generic/9.jpg"
+    ],
+    "available": true,
+    "hotelId": 22
+  },
+  {
+    "id": 87,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 186.38,
+    "images": [
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/1.jpg"
+    ],
+    "available": true,
+    "hotelId": 22
+  },
+  {
+    "id": 88,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 118.64,
+    "images": [
+      "/api/upload/misc/generic/6.jpg",
+      "/api/upload/misc/generic/5.jpg"
+    ],
+    "available": true,
+    "hotelId": 22
+  },
+  {
+    "id": 89,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 239.37,
+    "images": [
+      "/api/upload/misc/generic/9.jpg",
+      "/api/upload/misc/generic/8.jpg"
+    ],
+    "available": true,
+    "hotelId": 22
+  },
+  {
+    "id": 90,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 181.45,
+    "images": [
+      "/api/upload/misc/generic/10.jpg",
+      "/api/upload/misc/generic/8.jpg"
+    ],
+    "available": true,
+    "hotelId": 23
+  },
+  {
+    "id": 91,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 101.64,
+    "images": [
+      "/api/upload/misc/generic/10.jpg",
+      "/api/upload/misc/generic/4.jpg"
+    ],
+    "available": false,
+    "hotelId": 23
+  },
+  {
+    "id": 92,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 98.61,
+    "images": [
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/4.jpg"
+    ],
+    "available": false,
+    "hotelId": 23
+  },
+  {
+    "id": 93,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 283.43,
+    "images": [
+      "/api/upload/misc/generic/10.jpg",
+      "/api/upload/misc/generic/10.jpg"
+    ],
+    "available": true,
+    "hotelId": 23
+  },
+  {
+    "id": 94,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 224.56,
+    "images": [
+      "/api/upload/misc/generic/1.jpg",
+      "/api/upload/misc/generic/8.jpg"
+    ],
+    "available": false,
+    "hotelId": 24
+  },
+  {
+    "id": 95,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 172.36,
+    "images": [
+      "/api/upload/misc/generic/9.jpg",
+      "/api/upload/misc/generic/2.jpg"
+    ],
+    "available": false,
+    "hotelId": 24
+  },
+  {
+    "id": 96,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 196.38,
+    "images": [
+      "/api/upload/misc/generic/6.jpg",
+      "/api/upload/misc/generic/8.jpg"
+    ],
+    "available": true,
+    "hotelId": 24
+  },
+  {
+    "id": 97,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 221.92,
+    "images": [
+      "/api/upload/misc/generic/10.jpg",
+      "/api/upload/misc/generic/9.jpg"
+    ],
+    "available": false,
+    "hotelId": 25
+  },
+  {
+    "id": 98,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 109.82,
+    "images": [
+      "/api/upload/misc/generic/1.jpg",
+      "/api/upload/misc/generic/9.jpg"
+    ],
+    "available": true,
+    "hotelId": 25
+  },
+  {
+    "id": 99,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 243.99,
+    "images": [
+      "/api/upload/misc/generic/10.jpg",
+      "/api/upload/misc/generic/8.jpg"
+    ],
+    "available": true,
+    "hotelId": 25
+  },
+  {
+    "id": 100,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 249.57,
+    "images": [
+      "/api/upload/misc/generic/9.jpg",
+      "/api/upload/misc/generic/9.jpg"
+    ],
+    "available": false,
+    "hotelId": 25
+  },
+  {
+    "id": 101,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 151.75,
+    "images": [
+      "/api/upload/misc/generic/10.jpg",
+      "/api/upload/misc/generic/2.jpg"
+    ],
+    "available": true,
+    "hotelId": 25
+  },
+  {
+    "id": 102,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 91.17,
+    "images": [
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/3.jpg"
+    ],
+    "available": true,
+    "hotelId": 26
+  },
+  {
+    "id": 103,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 271.91,
+    "images": [
+      "/api/upload/misc/generic/8.jpg",
+      "/api/upload/misc/generic/2.jpg"
+    ],
+    "available": false,
+    "hotelId": 26
+  },
+  {
+    "id": 104,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 192.09,
+    "images": [
+      "/api/upload/misc/generic/5.jpg",
+      "/api/upload/misc/generic/4.jpg"
+    ],
+    "available": false,
+    "hotelId": 26
+  },
+  {
+    "id": 105,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 91.48,
+    "images": [
+      "/api/upload/misc/generic/4.jpg",
+      "/api/upload/misc/generic/6.jpg"
+    ],
+    "available": true,
+    "hotelId": 26
+  },
+  {
+    "id": 106,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 140.13,
+    "images": [
+      "/api/upload/misc/generic/7.jpg",
+      "/api/upload/misc/generic/9.jpg"
+    ],
+    "available": true,
+    "hotelId": 26
+  },
+  {
+    "id": 107,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 128.57,
+    "images": [
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/4.jpg"
+    ],
+    "available": true,
+    "hotelId": 27
+  },
+  {
+    "id": 108,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 96.16,
+    "images": [
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/3.jpg"
+    ],
+    "available": false,
+    "hotelId": 27
+  },
+  {
+    "id": 109,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 123.11,
+    "images": [
+      "/api/upload/misc/generic/6.jpg",
+      "/api/upload/misc/generic/2.jpg"
+    ],
+    "available": false,
+    "hotelId": 27
+  },
+  {
+    "id": 110,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 242.55,
+    "images": [
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/1.jpg"
+    ],
+    "available": true,
+    "hotelId": 27
+  },
+  {
+    "id": 111,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 257.21,
+    "images": [
+      "/api/upload/misc/generic/10.jpg",
+      "/api/upload/misc/generic/7.jpg"
+    ],
+    "available": true,
+    "hotelId": 28
+  },
+  {
+    "id": 112,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 191.57,
+    "images": [
+      "/api/upload/misc/generic/4.jpg",
+      "/api/upload/misc/generic/9.jpg"
+    ],
+    "available": false,
+    "hotelId": 28
+  },
+  {
+    "id": 113,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 150.84,
+    "images": [
+      "/api/upload/misc/generic/8.jpg",
+      "/api/upload/misc/generic/7.jpg"
+    ],
+    "available": true,
+    "hotelId": 28
+  },
+  {
+    "id": 114,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 231.48,
+    "images": [
+      "/api/upload/misc/generic/2.jpg",
+      "/api/upload/misc/generic/1.jpg"
+    ],
+    "available": false,
+    "hotelId": 29
+  },
+  {
+    "id": 115,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 200.95,
+    "images": [
+      "/api/upload/misc/generic/5.jpg",
+      "/api/upload/misc/generic/7.jpg"
+    ],
+    "available": true,
+    "hotelId": 29
+  },
+  {
+    "id": 116,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 184.26,
+    "images": [
+      "/api/upload/misc/generic/10.jpg",
+      "/api/upload/misc/generic/8.jpg"
+    ],
+    "available": false,
+    "hotelId": 29
+  },
+  {
+    "id": 117,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 258.32,
+    "images": [
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/3.jpg"
+    ],
+    "available": true,
+    "hotelId": 30
+  },
+  {
+    "id": 118,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 234.49,
+    "images": [
+      "/api/upload/misc/generic/2.jpg",
+      "/api/upload/misc/generic/6.jpg"
+    ],
+    "available": true,
+    "hotelId": 30
+  },
+  {
+    "id": 119,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 145.19,
+    "images": [
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/2.jpg"
+    ],
+    "available": false,
+    "hotelId": 30
+  },
+  {
+    "id": 120,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 128.35,
+    "images": [
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/4.jpg"
+    ],
+    "available": false,
+    "hotelId": 30
+  },
+  {
+    "id": 121,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 165.17,
+    "images": [
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/1.jpg"
+    ],
+    "available": false,
+    "hotelId": 31
+  },
+  {
+    "id": 122,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 211.57,
+    "images": [
+      "/api/upload/misc/generic/1.jpg",
+      "/api/upload/misc/generic/9.jpg"
+    ],
+    "available": true,
+    "hotelId": 31
+  },
+  {
+    "id": 123,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 207.6,
+    "images": [
+      "/api/upload/misc/generic/4.jpg",
+      "/api/upload/misc/generic/7.jpg"
+    ],
+    "available": true,
+    "hotelId": 31
+  },
+  {
+    "id": 124,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 235.61,
+    "images": [
+      "/api/upload/misc/generic/9.jpg",
+      "/api/upload/misc/generic/8.jpg"
+    ],
+    "available": true,
+    "hotelId": 32
+  },
+  {
+    "id": 125,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 85.17,
+    "images": [
+      "/api/upload/misc/generic/6.jpg",
+      "/api/upload/misc/generic/1.jpg"
+    ],
+    "available": false,
+    "hotelId": 32
+  },
+  {
+    "id": 126,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 245.2,
+    "images": [
+      "/api/upload/misc/generic/6.jpg",
+      "/api/upload/misc/generic/6.jpg"
+    ],
+    "available": false,
+    "hotelId": 32
+  },
+  {
+    "id": 127,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 209.76,
+    "images": [
+      "/api/upload/misc/generic/4.jpg",
+      "/api/upload/misc/generic/4.jpg"
+    ],
+    "available": false,
+    "hotelId": 32
+  },
+  {
+    "id": 128,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 82.63,
+    "images": [
+      "/api/upload/misc/generic/5.jpg",
+      "/api/upload/misc/generic/5.jpg"
+    ],
+    "available": false,
+    "hotelId": 32
+  },
+  {
+    "id": 129,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 177.45,
+    "images": [
+      "/api/upload/misc/generic/6.jpg",
+      "/api/upload/misc/generic/6.jpg"
+    ],
+    "available": false,
+    "hotelId": 33
+  },
+  {
+    "id": 130,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 179.35,
+    "images": [
+      "/api/upload/misc/generic/8.jpg",
+      "/api/upload/misc/generic/9.jpg"
+    ],
+    "available": true,
+    "hotelId": 33
+  },
+  {
+    "id": 131,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 223.77,
+    "images": [
+      "/api/upload/misc/generic/7.jpg",
+      "/api/upload/misc/generic/8.jpg"
+    ],
+    "available": true,
+    "hotelId": 33
+  },
+  {
+    "id": 132,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 164.63,
+    "images": [
+      "/api/upload/misc/generic/9.jpg",
+      "/api/upload/misc/generic/10.jpg"
+    ],
+    "available": true,
+    "hotelId": 34
+  },
+  {
+    "id": 133,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 222.69,
+    "images": [
+      "/api/upload/misc/generic/10.jpg",
+      "/api/upload/misc/generic/9.jpg"
+    ],
+    "available": true,
+    "hotelId": 34
+  },
+  {
+    "id": 134,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 277.49,
+    "images": [
+      "/api/upload/misc/generic/2.jpg",
+      "/api/upload/misc/generic/5.jpg"
+    ],
+    "available": true,
+    "hotelId": 34
+  },
+  {
+    "id": 135,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 93.17,
+    "images": [
+      "/api/upload/misc/generic/7.jpg",
+      "/api/upload/misc/generic/9.jpg"
+    ],
+    "available": true,
+    "hotelId": 35
+  },
+  {
+    "id": 136,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 121.81,
+    "images": [
+      "/api/upload/misc/generic/5.jpg",
+      "/api/upload/misc/generic/3.jpg"
+    ],
+    "available": true,
+    "hotelId": 35
+  },
+  {
+    "id": 137,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 277.63,
+    "images": [
+      "/api/upload/misc/generic/4.jpg",
+      "/api/upload/misc/generic/8.jpg"
+    ],
+    "available": true,
+    "hotelId": 35
+  },
+  {
+    "id": 138,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 279.83,
+    "images": [
+      "/api/upload/misc/generic/10.jpg",
+      "/api/upload/misc/generic/9.jpg"
+    ],
+    "available": true,
+    "hotelId": 36
+  },
+  {
+    "id": 139,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 202.47,
+    "images": [
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/5.jpg"
+    ],
+    "available": false,
+    "hotelId": 36
+  },
+  {
+    "id": 140,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 157.96,
+    "images": [
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/8.jpg"
+    ],
+    "available": true,
+    "hotelId": 36
+  },
+  {
+    "id": 141,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 270.1,
+    "images": [
+      "/api/upload/misc/generic/2.jpg",
+      "/api/upload/misc/generic/6.jpg"
+    ],
+    "available": true,
+    "hotelId": 37
+  },
+  {
+    "id": 142,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 88.52,
+    "images": [
+      "/api/upload/misc/generic/4.jpg",
+      "/api/upload/misc/generic/4.jpg"
+    ],
+    "available": true,
+    "hotelId": 37
+  },
+  {
+    "id": 143,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 140.44,
+    "images": [
+      "/api/upload/misc/generic/5.jpg",
+      "/api/upload/misc/generic/8.jpg"
+    ],
+    "available": true,
+    "hotelId": 37
+  },
+  {
+    "id": 144,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 193.78,
+    "images": [
+      "/api/upload/misc/generic/9.jpg",
+      "/api/upload/misc/generic/3.jpg"
+    ],
+    "available": false,
+    "hotelId": 38
+  },
+  {
+    "id": 145,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 192.6,
+    "images": [
+      "/api/upload/misc/generic/8.jpg",
+      "/api/upload/misc/generic/1.jpg"
+    ],
+    "available": false,
+    "hotelId": 38
+  },
+  {
+    "id": 146,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 261.88,
+    "images": [
+      "/api/upload/misc/generic/7.jpg",
+      "/api/upload/misc/generic/7.jpg"
+    ],
+    "available": true,
+    "hotelId": 38
+  },
+  {
+    "id": 147,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 105.34,
+    "images": [
+      "/api/upload/misc/generic/9.jpg",
+      "/api/upload/misc/generic/8.jpg"
+    ],
+    "available": true,
+    "hotelId": 39
+  },
+  {
+    "id": 148,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 145.39,
+    "images": [
+      "/api/upload/misc/generic/2.jpg",
+      "/api/upload/misc/generic/2.jpg"
+    ],
+    "available": true,
+    "hotelId": 39
+  },
+  {
+    "id": 149,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 269.95,
+    "images": [
+      "/api/upload/misc/generic/5.jpg",
+      "/api/upload/misc/generic/8.jpg"
+    ],
+    "available": false,
+    "hotelId": 39
+  },
+  {
+    "id": 150,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 134.55,
+    "images": [
+      "/api/upload/misc/generic/1.jpg",
+      "/api/upload/misc/generic/3.jpg"
+    ],
+    "available": false,
+    "hotelId": 40
+  },
+  {
+    "id": 151,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 258.57,
+    "images": [
+      "/api/upload/misc/generic/2.jpg",
+      "/api/upload/misc/generic/10.jpg"
+    ],
+    "available": false,
+    "hotelId": 40
+  },
+  {
+    "id": 152,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 272.75,
+    "images": [
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/1.jpg"
+    ],
+    "available": true,
+    "hotelId": 40
+  },
+  {
+    "id": 153,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 227.17,
+    "images": [
+      "/api/upload/misc/generic/5.jpg",
+      "/api/upload/misc/generic/3.jpg"
+    ],
+    "available": true,
+    "hotelId": 40
+  },
+  {
+    "id": 154,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 118.89,
+    "images": [
+      "/api/upload/misc/generic/5.jpg",
+      "/api/upload/misc/generic/2.jpg"
+    ],
+    "available": false,
+    "hotelId": 40
+  },
+  {
+    "id": 155,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 164.18,
+    "images": [
+      "/api/upload/misc/generic/6.jpg",
+      "/api/upload/misc/generic/10.jpg"
+    ],
+    "available": false,
+    "hotelId": 41
+  },
+  {
+    "id": 156,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 151.96,
+    "images": [
+      "/api/upload/misc/generic/8.jpg",
+      "/api/upload/misc/generic/7.jpg"
+    ],
+    "available": true,
+    "hotelId": 41
+  },
+  {
+    "id": 157,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 176.52,
+    "images": [
+      "/api/upload/misc/generic/9.jpg",
+      "/api/upload/misc/generic/7.jpg"
+    ],
+    "available": false,
+    "hotelId": 41
+  },
+  {
+    "id": 158,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 132.99,
+    "images": [
+      "/api/upload/misc/generic/1.jpg",
+      "/api/upload/misc/generic/3.jpg"
+    ],
+    "available": true,
+    "hotelId": 41
+  },
+  {
+    "id": 159,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 209.03,
+    "images": [
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/3.jpg"
+    ],
+    "available": true,
+    "hotelId": 42
+  },
+  {
+    "id": 160,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 170.7,
+    "images": [
+      "/api/upload/misc/generic/10.jpg",
+      "/api/upload/misc/generic/3.jpg"
+    ],
+    "available": true,
+    "hotelId": 42
+  },
+  {
+    "id": 161,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 269.64,
+    "images": [
+      "/api/upload/misc/generic/4.jpg",
+      "/api/upload/misc/generic/3.jpg"
+    ],
+    "available": false,
+    "hotelId": 42
+  },
+  {
+    "id": 162,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 207.25,
+    "images": [
+      "/api/upload/misc/generic/8.jpg",
+      "/api/upload/misc/generic/5.jpg"
+    ],
+    "available": true,
+    "hotelId": 42
+  },
+  {
+    "id": 163,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 246.64,
+    "images": [
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/6.jpg"
+    ],
+    "available": false,
+    "hotelId": 43
+  },
+  {
+    "id": 164,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 188.33,
+    "images": [
+      "/api/upload/misc/generic/5.jpg",
+      "/api/upload/misc/generic/7.jpg"
+    ],
+    "available": false,
+    "hotelId": 43
+  },
+  {
+    "id": 165,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 250.26,
+    "images": [
+      "/api/upload/misc/generic/4.jpg",
+      "/api/upload/misc/generic/8.jpg"
+    ],
+    "available": false,
+    "hotelId": 43
+  },
+  {
+    "id": 166,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 290.14,
+    "images": [
+      "/api/upload/misc/generic/8.jpg",
+      "/api/upload/misc/generic/8.jpg"
+    ],
+    "available": false,
+    "hotelId": 43
+  },
+  {
+    "id": 167,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 294.16,
+    "images": [
+      "/api/upload/misc/generic/7.jpg",
+      "/api/upload/misc/generic/4.jpg"
+    ],
+    "available": false,
+    "hotelId": 43
+  },
+  {
+    "id": 168,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 139.42,
+    "images": [
+      "/api/upload/misc/generic/7.jpg",
+      "/api/upload/misc/generic/1.jpg"
+    ],
+    "available": false,
+    "hotelId": 44
+  },
+  {
+    "id": 169,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 210.22,
+    "images": [
+      "/api/upload/misc/generic/4.jpg",
+      "/api/upload/misc/generic/2.jpg"
+    ],
+    "available": false,
+    "hotelId": 44
+  },
+  {
+    "id": 170,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 298.09,
+    "images": [
+      "/api/upload/misc/generic/1.jpg",
+      "/api/upload/misc/generic/3.jpg"
+    ],
+    "available": true,
+    "hotelId": 44
+  },
+  {
+    "id": 171,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 244.22,
+    "images": [
+      "/api/upload/misc/generic/5.jpg",
+      "/api/upload/misc/generic/8.jpg"
+    ],
+    "available": false,
+    "hotelId": 44
+  },
+  {
+    "id": 172,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 95.93,
+    "images": [
+      "/api/upload/misc/generic/9.jpg",
+      "/api/upload/misc/generic/3.jpg"
+    ],
+    "available": false,
+    "hotelId": 45
+  },
+  {
+    "id": 173,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 185.55,
+    "images": [
+      "/api/upload/misc/generic/9.jpg",
+      "/api/upload/misc/generic/5.jpg"
+    ],
+    "available": false,
+    "hotelId": 45
+  },
+  {
+    "id": 174,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 162.34,
+    "images": [
+      "/api/upload/misc/generic/8.jpg",
+      "/api/upload/misc/generic/4.jpg"
+    ],
+    "available": false,
+    "hotelId": 45
+  },
+  {
+    "id": 175,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 127.71,
+    "images": [
+      "/api/upload/misc/generic/8.jpg",
+      "/api/upload/misc/generic/3.jpg"
+    ],
+    "available": false,
+    "hotelId": 45
+  },
+  {
+    "id": 176,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 107.4,
+    "images": [
+      "/api/upload/misc/generic/9.jpg",
+      "/api/upload/misc/generic/7.jpg"
+    ],
+    "available": false,
+    "hotelId": 46
+  },
+  {
+    "id": 177,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 111.13,
+    "images": [
+      "/api/upload/misc/generic/2.jpg",
+      "/api/upload/misc/generic/2.jpg"
+    ],
+    "available": false,
+    "hotelId": 46
+  },
+  {
+    "id": 178,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 120.23,
+    "images": [
+      "/api/upload/misc/generic/7.jpg",
+      "/api/upload/misc/generic/1.jpg"
+    ],
+    "available": false,
+    "hotelId": 46
+  },
+  {
+    "id": 179,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 91.65,
+    "images": [
+      "/api/upload/misc/generic/7.jpg",
+      "/api/upload/misc/generic/7.jpg"
+    ],
+    "available": false,
+    "hotelId": 46
+  },
+  {
+    "id": 180,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 254.79,
+    "images": [
+      "/api/upload/misc/generic/9.jpg",
+      "/api/upload/misc/generic/2.jpg"
+    ],
+    "available": true,
+    "hotelId": 47
+  },
+  {
+    "id": 181,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 114.64,
+    "images": [
+      "/api/upload/misc/generic/4.jpg",
+      "/api/upload/misc/generic/5.jpg"
+    ],
+    "available": false,
+    "hotelId": 47
+  },
+  {
+    "id": 182,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 122.28,
+    "images": [
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/7.jpg"
+    ],
+    "available": false,
+    "hotelId": 47
+  },
+  {
+    "id": 183,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 129.62,
+    "images": [
+      "/api/upload/misc/generic/2.jpg",
+      "/api/upload/misc/generic/2.jpg"
+    ],
+    "available": true,
+    "hotelId": 47
+  },
+  {
+    "id": 184,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 236.13,
+    "images": [
+      "/api/upload/misc/generic/10.jpg",
+      "/api/upload/misc/generic/3.jpg"
+    ],
+    "available": true,
+    "hotelId": 48
+  },
+  {
+    "id": 185,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 203.28,
+    "images": [
+      "/api/upload/misc/generic/1.jpg",
+      "/api/upload/misc/generic/8.jpg"
+    ],
+    "available": false,
+    "hotelId": 48
+  },
+  {
+    "id": 186,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 210.45,
+    "images": [
+      "/api/upload/misc/generic/10.jpg",
+      "/api/upload/misc/generic/4.jpg"
+    ],
+    "available": true,
+    "hotelId": 48
+  },
+  {
+    "id": 187,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 273.38,
+    "images": [
+      "/api/upload/misc/generic/6.jpg",
+      "/api/upload/misc/generic/4.jpg"
+    ],
+    "available": true,
+    "hotelId": 48
+  },
+  {
+    "id": 188,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 204.33,
+    "images": [
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/1.jpg"
+    ],
+    "available": false,
+    "hotelId": 49
+  },
+  {
+    "id": 189,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 141.72,
+    "images": [
+      "/api/upload/misc/generic/8.jpg",
+      "/api/upload/misc/generic/3.jpg"
+    ],
+    "available": true,
+    "hotelId": 49
+  },
+  {
+    "id": 190,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 260.59,
+    "images": [
+      "/api/upload/misc/generic/4.jpg",
+      "/api/upload/misc/generic/1.jpg"
+    ],
+    "available": true,
+    "hotelId": 49
+  },
+  {
+    "id": 191,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 271.45,
+    "images": [
+      "/api/upload/misc/generic/8.jpg",
+      "/api/upload/misc/generic/1.jpg"
+    ],
+    "available": true,
+    "hotelId": 49
+  },
+  {
+    "id": 192,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 109.33,
+    "images": [
+      "/api/upload/misc/generic/2.jpg",
+      "/api/upload/misc/generic/7.jpg"
+    ],
+    "available": false,
+    "hotelId": 49
+  },
+  {
+    "id": 193,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 295.45,
+    "images": [
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/10.jpg"
+    ],
+    "available": true,
+    "hotelId": 50
+  },
+  {
+    "id": 194,
+    "type": "Suite",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 113.59,
+    "images": [
+      "/api/upload/misc/generic/6.jpg",
+      "/api/upload/misc/generic/1.jpg"
+    ],
+    "available": false,
+    "hotelId": 50
+  },
+  {
+    "id": 195,
+    "type": "Single",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 93.53,
+    "images": [
+      "/api/upload/misc/generic/5.jpg",
+      "/api/upload/misc/generic/7.jpg"
+    ],
+    "available": false,
+    "hotelId": 50
+  },
+  {
+    "id": 196,
+    "type": "Double",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "pricePerNight": 115.07,
+    "images": [
+      "/api/upload/misc/generic/5.jpg",
+      "/api/upload/misc/generic/7.jpg"
+    ],
+    "available": true,
+    "hotelId": 50
+  }
+]

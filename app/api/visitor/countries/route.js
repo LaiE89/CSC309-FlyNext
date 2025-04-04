@@ -1,0 +1,39 @@
+import { NextResponse } from "next/server";
+import { PrismaClient } from "@prisma/client";
+
+const prisma = new PrismaClient();
+
+export async function GET(request) {
+    const { searchParams } = new URL(request.url);
+    const query = searchParams.get("query");
+
+    if (!query) {
+        return NextResponse.json(
+            { error: "Missing query parameter" },
+            { status: 400 }
+        );
+    }
+
+    try {
+        const [countryResults] = await Promise.all([
+            prisma.city.findMany({
+                where: {
+                    country: {
+                        startsWith: query,
+                    },
+                },
+                distinct: ['country'],
+                take: 5,
+            })
+        ]);
+        const countryNames = countryResults.map(item => item.country);
+        const suggestions = [...countryNames].slice(0, 5);
+      
+        return NextResponse.json({ suggestions }, { status: 200 });
+    } catch (error) {
+        return NextResponse.json(
+            { error: "Internal Server Error" },
+            { status: 500, headers: { "Content-Type": "application/json" } }
+        );
+    }
+}

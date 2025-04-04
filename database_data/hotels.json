@@ -1,0 +1,752 @@
+[
+  {
+    "id": 1,
+    "name": "Jordan-Waters Hotel",
+    "logo": "/api/upload/misc/logos/7.png",
+    "address": "8976 Maria Hollow Suite 703\nMonicashire, ND 90315",
+    "starRating": 5,
+    "images": [
+      "/api/upload/misc/generic/4.jpg",
+      "/api/upload/misc/generic/8.jpg",
+      "/api/upload/misc/generic/2.jpg"
+    ],
+    "ownerId": 2,
+    "city": "Stockholm",
+    "country": "Sweden"
+  },
+  {
+    "id": 2,
+    "name": "Frank, Garcia and Martinez Hotel",
+    "logo": "/api/upload/misc/logos/4.png",
+    "address": "93498 White Fall Suite 564\nWilliamston, TN 75485",
+    "starRating": 5,
+    "images": [
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/10.jpg",
+      "/api/upload/misc/generic/5.jpg"
+    ],
+    "ownerId": 2,
+    "city": "Toronto",
+    "country": "Canada"
+  },
+  {
+    "id": 3,
+    "name": "Forbes Inc Hotel",
+    "logo": "/api/upload/misc/logos/1.png",
+    "address": "34243 Shea Summit\nSextonchester, IL 92609",
+    "starRating": 4,
+    "images": [
+      "/api/upload/misc/generic/5.jpg",
+      "/api/upload/misc/generic/7.jpg",
+      "/api/upload/misc/generic/2.jpg"
+    ],
+    "ownerId": 10,
+    "city": "Los Angeles",
+    "country": "United States"
+  },
+  {
+    "id": 4,
+    "name": "Ramsey-Kelly Hotel",
+    "logo": "/api/upload/misc/logos/3.png",
+    "address": "91806 Garza Ville Apt. 477\nSouth Brendatown, OH 15985",
+    "starRating": 3,
+    "images": [
+      "/api/upload/misc/generic/2.jpg",
+      "/api/upload/misc/generic/8.jpg",
+      "/api/upload/misc/generic/5.jpg"
+    ],
+    "ownerId": 9,
+    "city": "Stockholm",
+    "country": "Sweden"
+  },
+  {
+    "id": 5,
+    "name": "Smith, Rhodes and Hernandez Hotel",
+    "logo": "/api/upload/misc/logos/6.png",
+    "address": "8317 Sandra Manors\nThomasfort, AL 24798",
+    "starRating": 3,
+    "images": [
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/8.jpg",
+      "/api/upload/misc/generic/3.jpg"
+    ],
+    "ownerId": 2,
+    "city": "Seoul",
+    "country": "South Korea"
+  },
+  {
+    "id": 6,
+    "name": "Davenport, Whitaker and Watkins Hotel",
+    "logo": "/api/upload/misc/logos/3.png",
+    "address": "2262 Rachel Summit Apt. 313\nDuranside, AZ 02091",
+    "starRating": 5,
+    "images": [
+      "/api/upload/misc/generic/6.jpg",
+      "/api/upload/misc/generic/1.jpg",
+      "/api/upload/misc/generic/7.jpg"
+    ],
+    "ownerId": 2,
+    "city": "Stockholm",
+    "country": "Sweden"
+  },
+  {
+    "id": 7,
+    "name": "Baker, Johnson and Combs Hotel",
+    "logo": "/api/upload/misc/logos/6.png",
+    "address": "4650 Cameron Corners Suite 152\nShelbyton, MT 06569",
+    "starRating": 3,
+    "images": [
+      "/api/upload/misc/generic/5.jpg",
+      "/api/upload/misc/generic/7.jpg",
+      "/api/upload/misc/generic/4.jpg"
+    ],
+    "ownerId": 5,
+    "city": "Toronto",
+    "country": "Canada"
+  },
+  {
+    "id": 8,
+    "name": "Lewis-Boyer Hotel",
+    "logo": "/api/upload/misc/logos/2.png",
+    "address": "582 Charles Cape Suite 599\nLake Karenville, PA 97218",
+    "starRating": 3,
+    "images": [
+      "/api/upload/misc/generic/5.jpg",
+      "/api/upload/misc/generic/1.jpg",
+      "/api/upload/misc/generic/5.jpg"
+    ],
+    "ownerId": 6,
+    "city": "Tokyo",
+    "country": "Japan"
+  },
+  {
+    "id": 9,
+    "name": "Jones Ltd Hotel",
+    "logo": "/api/upload/misc/logos/3.png",
+    "address": "0573 John Forge\nPort Craig, KY 83308",
+    "starRating": 3,
+    "images": [
+      "/api/upload/misc/generic/1.jpg",
+      "/api/upload/misc/generic/8.jpg",
+      "/api/upload/misc/generic/2.jpg"
+    ],
+    "ownerId": 10,
+    "city": "New York",
+    "country": "United States"
+  },
+  {
+    "id": 10,
+    "name": "Ortiz-Stone Hotel",
+    "logo": "/api/upload/misc/logos/10.png",
+    "address": "PSC 2280, Box 4199\nAPO AE 45546",
+    "starRating": 5,
+    "images": [
+      "/api/upload/misc/generic/6.jpg",
+      "/api/upload/misc/generic/10.jpg",
+      "/api/upload/misc/generic/1.jpg"
+    ],
+    "ownerId": 5,
+    "city": "Seoul",
+    "country": "South Korea"
+  },
+  {
+    "id": 11,
+    "name": "Hughes-Lopez Hotel",
+    "logo": "/api/upload/misc/logos/9.png",
+    "address": "82300 Daniel Squares Apt. 864\nWeberberg, NH 94418",
+    "starRating": 3,
+    "images": [
+      "/api/upload/misc/generic/5.jpg",
+      "/api/upload/misc/generic/7.jpg",
+      "/api/upload/misc/generic/1.jpg"
+    ],
+    "ownerId": 5,
+    "city": "Stockholm",
+    "country": "Sweden"
+  },
+  {
+    "id": 12,
+    "name": "Lane-Cunningham Hotel",
+    "logo": "/api/upload/misc/logos/2.png",
+    "address": "14451 Erika Court Apt. 292\nLesterstad, WA 78837",
+    "starRating": 3,
+    "images": [
+      "/api/upload/misc/generic/2.jpg",
+      "/api/upload/misc/generic/10.jpg",
+      "/api/upload/misc/generic/9.jpg"
+    ],
+    "ownerId": 3,
+    "city": "Los Angeles",
+    "country": "United States"
+  },
+  {
+    "id": 13,
+    "name": "Smith-Gomez Hotel",
+    "logo": "/api/upload/misc/logos/10.png",
+    "address": "360 Brooks Brook\nRoweside, GA 45450",
+    "starRating": 3,
+    "images": [
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/6.jpg",
+      "/api/upload/misc/generic/1.jpg"
+    ],
+    "ownerId": 1,
+    "city": "Dubai",
+    "country": "United Arab Emirates"
+  },
+  {
+    "id": 14,
+    "name": "Thomas, Johnson and Mcknight Hotel",
+    "logo": "/api/upload/misc/logos/2.png",
+    "address": "4391 Best Flats Suite 715\nSouth Kathleen, AL 02688",
+    "starRating": 3,
+    "images": [
+      "/api/upload/misc/generic/5.jpg",
+      "/api/upload/misc/generic/6.jpg",
+      "/api/upload/misc/generic/4.jpg"
+    ],
+    "ownerId": 5,
+    "city": "Dubai",
+    "country": "United Arab Emirates"
+  },
+  {
+    "id": 15,
+    "name": "Smith-Brown Hotel",
+    "logo": "/api/upload/misc/logos/7.png",
+    "address": "2851 Montgomery Key Apt. 636\nHaleymouth, MS 81280",
+    "starRating": 5,
+    "images": [
+      "/api/upload/misc/generic/8.jpg",
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/10.jpg"
+    ],
+    "ownerId": 2,
+    "city": "Dubai",
+    "country": "United Arab Emirates"
+  },
+  {
+    "id": 16,
+    "name": "Brown Inc Hotel",
+    "logo": "/api/upload/misc/logos/2.png",
+    "address": "41664 Ashley Plaza Apt. 508\nLake Jeanneburgh, OK 13067",
+    "starRating": 3,
+    "images": [
+      "/api/upload/misc/generic/8.jpg",
+      "/api/upload/misc/generic/10.jpg",
+      "/api/upload/misc/generic/2.jpg"
+    ],
+    "ownerId": 6,
+    "city": "New York",
+    "country": "United States"
+  },
+  {
+    "id": 17,
+    "name": "Baker LLC Hotel",
+    "logo": "/api/upload/misc/logos/7.png",
+    "address": "PSC 4559, Box 1594\nAPO AE 38672",
+    "starRating": 3,
+    "images": [
+      "/api/upload/misc/generic/8.jpg",
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/2.jpg"
+    ],
+    "ownerId": 5,
+    "city": "Stockholm",
+    "country": "Sweden"
+  },
+  {
+    "id": 18,
+    "name": "Kennedy-Wilson Hotel",
+    "logo": "/api/upload/misc/logos/7.png",
+    "address": "21360 Jenna Terrace Apt. 523\nEast Michael, WI 81349",
+    "starRating": 5,
+    "images": [
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/1.jpg",
+      "/api/upload/misc/generic/2.jpg"
+    ],
+    "ownerId": 6,
+    "city": "Toronto",
+    "country": "Canada"
+  },
+  {
+    "id": 19,
+    "name": "Caldwell, Horn and Ortega Hotel",
+    "logo": "/api/upload/misc/logos/7.png",
+    "address": "97072 Brenda Route Apt. 465\nEast Shane, DE 15527",
+    "starRating": 5,
+    "images": [
+      "/api/upload/misc/generic/8.jpg",
+      "/api/upload/misc/generic/4.jpg",
+      "/api/upload/misc/generic/8.jpg"
+    ],
+    "ownerId": 6,
+    "city": "Seoul",
+    "country": "South Korea"
+  },
+  {
+    "id": 20,
+    "name": "Weber, Turner and Hale Hotel",
+    "logo": "/api/upload/misc/logos/5.png",
+    "address": "200 Austin Corners\nDaniellefurt, NC 99171",
+    "starRating": 5,
+    "images": [
+      "/api/upload/misc/generic/9.jpg",
+      "/api/upload/misc/generic/5.jpg",
+      "/api/upload/misc/generic/4.jpg"
+    ],
+    "ownerId": 7,
+    "city": "New York",
+    "country": "United States"
+  },
+  {
+    "id": 21,
+    "name": "Silva, Smith and Salazar Hotel",
+    "logo": "/api/upload/misc/logos/5.png",
+    "address": "PSC 3571, Box 8411\nAPO AA 09438",
+    "starRating": 4,
+    "images": [
+      "/api/upload/misc/generic/6.jpg",
+      "/api/upload/misc/generic/1.jpg",
+      "/api/upload/misc/generic/3.jpg"
+    ],
+    "ownerId": 8,
+    "city": "Los Angeles",
+    "country": "United States"
+  },
+  {
+    "id": 22,
+    "name": "Phillips-Parker Hotel",
+    "logo": "/api/upload/misc/logos/5.png",
+    "address": "660 Jerry Island\nPort Elizabeth, OK 87026",
+    "starRating": 3,
+    "images": [
+      "/api/upload/misc/generic/10.jpg",
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/10.jpg"
+    ],
+    "ownerId": 4,
+    "city": "Beijing",
+    "country": "China"
+  },
+  {
+    "id": 23,
+    "name": "Wallace-Hunt Hotel",
+    "logo": "/api/upload/misc/logos/5.png",
+    "address": "65222 Cassandra Center Apt. 785\nWest Karen, NM 07076",
+    "starRating": 5,
+    "images": [
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/1.jpg",
+      "/api/upload/misc/generic/6.jpg"
+    ],
+    "ownerId": 1,
+    "city": "Los Angeles",
+    "country": "United States"
+  },
+  {
+    "id": 24,
+    "name": "Long, Ortiz and Hall Hotel",
+    "logo": "/api/upload/misc/logos/10.png",
+    "address": "28745 Murphy Views Apt. 366\nStevensmouth, MD 42721",
+    "starRating": 3,
+    "images": [
+      "/api/upload/misc/generic/10.jpg",
+      "/api/upload/misc/generic/5.jpg",
+      "/api/upload/misc/generic/7.jpg"
+    ],
+    "ownerId": 5,
+    "city": "Seoul",
+    "country": "South Korea"
+  },
+  {
+    "id": 25,
+    "name": "Evans-Hernandez Hotel",
+    "logo": "/api/upload/misc/logos/10.png",
+    "address": "4549 Jennifer Way Apt. 045\nLake Annebury, MS 51056",
+    "starRating": 5,
+    "images": [
+      "/api/upload/misc/generic/6.jpg",
+      "/api/upload/misc/generic/9.jpg",
+      "/api/upload/misc/generic/7.jpg"
+    ],
+    "ownerId": 8,
+    "city": "Los Angeles",
+    "country": "United States"
+  },
+  {
+    "id": 26,
+    "name": "Bishop-Floyd Hotel",
+    "logo": "/api/upload/misc/logos/3.png",
+    "address": "936 Deborah Springs\nNicholasview, IN 53538",
+    "starRating": 3,
+    "images": [
+      "/api/upload/misc/generic/4.jpg",
+      "/api/upload/misc/generic/4.jpg",
+      "/api/upload/misc/generic/1.jpg"
+    ],
+    "ownerId": 5,
+    "city": "Toronto",
+    "country": "Canada"
+  },
+  {
+    "id": 27,
+    "name": "Pope-Ewing Hotel",
+    "logo": "/api/upload/misc/logos/10.png",
+    "address": "4695 Mary Lights Suite 597\nHallhaven, MA 85158",
+    "starRating": 5,
+    "images": [
+      "/api/upload/misc/generic/4.jpg",
+      "/api/upload/misc/generic/1.jpg",
+      "/api/upload/misc/generic/6.jpg"
+    ],
+    "ownerId": 4,
+    "city": "Los Angeles",
+    "country": "United States"
+  },
+  {
+    "id": 28,
+    "name": "Golden-Zimmerman Hotel",
+    "logo": "/api/upload/misc/logos/3.png",
+    "address": "2076 Kyle Cove Suite 402\nSouth Sheri, TX 89725",
+    "starRating": 3,
+    "images": [
+      "/api/upload/misc/generic/2.jpg",
+      "/api/upload/misc/generic/10.jpg",
+      "/api/upload/misc/generic/10.jpg"
+    ],
+    "ownerId": 1,
+    "city": "Beijing",
+    "country": "China"
+  },
+  {
+    "id": 29,
+    "name": "Evans-King Hotel",
+    "logo": "/api/upload/misc/logos/8.png",
+    "address": "3721 Betty Ferry\nNew Kristinberg, ID 73523",
+    "starRating": 3,
+    "images": [
+      "/api/upload/misc/generic/8.jpg",
+      "/api/upload/misc/generic/10.jpg",
+      "/api/upload/misc/generic/5.jpg"
+    ],
+    "ownerId": 8,
+    "city": "Seoul",
+    "country": "South Korea"
+  },
+  {
+    "id": 30,
+    "name": "Cohen, Lucas and Crawford Hotel",
+    "logo": "/api/upload/misc/logos/7.png",
+    "address": "304 Lucas Courts\nEast James, CA 42156",
+    "starRating": 3,
+    "images": [
+      "/api/upload/misc/generic/7.jpg",
+      "/api/upload/misc/generic/10.jpg",
+      "/api/upload/misc/generic/7.jpg"
+    ],
+    "ownerId": 4,
+    "city": "Dubai",
+    "country": "United Arab Emirates"
+  },
+  {
+    "id": 31,
+    "name": "Potter, Rhodes and Cooper Hotel",
+    "logo": "/api/upload/misc/logos/8.png",
+    "address": "5596 Cody Glens Suite 151\nMichaelland, MD 53255",
+    "starRating": 5,
+    "images": [
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/7.jpg",
+      "/api/upload/misc/generic/3.jpg"
+    ],
+    "ownerId": 7,
+    "city": "Beijing",
+    "country": "China"
+  },
+  {
+    "id": 32,
+    "name": "Johnson and Sons Hotel",
+    "logo": "/api/upload/misc/logos/7.png",
+    "address": "65494 Mary Greens\nRachelmouth, RI 59097",
+    "starRating": 3,
+    "images": [
+      "/api/upload/misc/generic/5.jpg",
+      "/api/upload/misc/generic/6.jpg",
+      "/api/upload/misc/generic/2.jpg"
+    ],
+    "ownerId": 10,
+    "city": "Tokyo",
+    "country": "Japan"
+  },
+  {
+    "id": 33,
+    "name": "Rodriguez, Petersen and George Hotel",
+    "logo": "/api/upload/misc/logos/6.png",
+    "address": "957 Mcdaniel Forks Suite 175\nJohnsonside, MN 18696",
+    "starRating": 5,
+    "images": [
+      "/api/upload/misc/generic/10.jpg",
+      "/api/upload/misc/generic/4.jpg",
+      "/api/upload/misc/generic/9.jpg"
+    ],
+    "ownerId": 7,
+    "city": "Seoul",
+    "country": "South Korea"
+  },
+  {
+    "id": 34,
+    "name": "Davis Ltd Hotel",
+    "logo": "/api/upload/misc/logos/6.png",
+    "address": "537 Cohen Route\nMuellerville, PA 96423",
+    "starRating": 5,
+    "images": [
+      "/api/upload/misc/generic/2.jpg",
+      "/api/upload/misc/generic/7.jpg",
+      "/api/upload/misc/generic/10.jpg"
+    ],
+    "ownerId": 1,
+    "city": "Dubai",
+    "country": "United Arab Emirates"
+  },
+  {
+    "id": 35,
+    "name": "Jenkins, Stephens and Acosta Hotel",
+    "logo": "/api/upload/misc/logos/7.png",
+    "address": "649 Fields Courts Apt. 094\nLake Timothyberg, MS 42276",
+    "starRating": 4,
+    "images": [
+      "/api/upload/misc/generic/5.jpg",
+      "/api/upload/misc/generic/9.jpg",
+      "/api/upload/misc/generic/5.jpg"
+    ],
+    "ownerId": 3,
+    "city": "Seoul",
+    "country": "South Korea"
+  },
+  {
+    "id": 36,
+    "name": "Harris Inc Hotel",
+    "logo": "/api/upload/misc/logos/5.png",
+    "address": "107 Mcknight Unions Suite 554\nRyanside, WI 15928",
+    "starRating": 4,
+    "images": [
+      "/api/upload/misc/generic/7.jpg",
+      "/api/upload/misc/generic/1.jpg",
+      "/api/upload/misc/generic/7.jpg"
+    ],
+    "ownerId": 8,
+    "city": "Stockholm",
+    "country": "Sweden"
+  },
+  {
+    "id": 37,
+    "name": "Miller, Watkins and Chan Hotel",
+    "logo": "/api/upload/misc/logos/7.png",
+    "address": "6291 Caroline Rue Suite 303\nGreermouth, MN 09618",
+    "starRating": 4,
+    "images": [
+      "/api/upload/misc/generic/2.jpg",
+      "/api/upload/misc/generic/7.jpg",
+      "/api/upload/misc/generic/5.jpg"
+    ],
+    "ownerId": 9,
+    "city": "Dubai",
+    "country": "United Arab Emirates"
+  },
+  {
+    "id": 38,
+    "name": "Reyes-Coleman Hotel",
+    "logo": "/api/upload/misc/logos/6.png",
+    "address": "PSC 2678, Box 6631\nAPO AA 13475",
+    "starRating": 3,
+    "images": [
+      "/api/upload/misc/generic/10.jpg",
+      "/api/upload/misc/generic/4.jpg",
+      "/api/upload/misc/generic/8.jpg"
+    ],
+    "ownerId": 4,
+    "city": "Tokyo",
+    "country": "Japan"
+  },
+  {
+    "id": 39,
+    "name": "Dunn-Bartlett Hotel",
+    "logo": "/api/upload/misc/logos/1.png",
+    "address": "8057 Steven View Apt. 685\nSouth Sean, ND 16275",
+    "starRating": 3,
+    "images": [
+      "/api/upload/misc/generic/10.jpg",
+      "/api/upload/misc/generic/5.jpg",
+      "/api/upload/misc/generic/8.jpg"
+    ],
+    "ownerId": 10,
+    "city": "Beijing",
+    "country": "China"
+  },
+  {
+    "id": 40,
+    "name": "Wagner, Davis and Harris Hotel",
+    "logo": "/api/upload/misc/logos/3.png",
+    "address": "PSC 2320, Box 6553\nAPO AA 40408",
+    "starRating": 3,
+    "images": [
+      "/api/upload/misc/generic/4.jpg",
+      "/api/upload/misc/generic/4.jpg",
+      "/api/upload/misc/generic/1.jpg"
+    ],
+    "ownerId": 8,
+    "city": "Tokyo",
+    "country": "Japan"
+  },
+  {
+    "id": 41,
+    "name": "Levy, Young and Hamilton Hotel",
+    "logo": "/api/upload/misc/logos/8.png",
+    "address": "71788 Cody Rest\nKrauseburgh, LA 84534",
+    "starRating": 3,
+    "images": [
+      "/api/upload/misc/generic/4.jpg",
+      "/api/upload/misc/generic/6.jpg",
+      "/api/upload/misc/generic/7.jpg"
+    ],
+    "ownerId": 9,
+    "city": "Tokyo",
+    "country": "Japan"
+  },
+  {
+    "id": 42,
+    "name": "Jarvis-Diaz Hotel",
+    "logo": "/api/upload/misc/logos/9.png",
+    "address": "54128 Kenneth Knoll\nBrooksbury, DC 13874",
+    "starRating": 5,
+    "images": [
+      "/api/upload/misc/generic/1.jpg",
+      "/api/upload/misc/generic/3.jpg",
+      "/api/upload/misc/generic/7.jpg"
+    ],
+    "ownerId": 6,
+    "city": "Los Angeles",
+    "country": "United States"
+  },
+  {
+    "id": 43,
+    "name": "Cook PLC Hotel",
+    "logo": "/api/upload/misc/logos/5.png",
+    "address": "4647 Jennifer Valleys Apt. 964\nWest Willieborough, WA 13840",
+    "starRating": 5,
+    "images": [
+      "/api/upload/misc/generic/6.jpg",
+      "/api/upload/misc/generic/7.jpg",
+      "/api/upload/misc/generic/9.jpg"
+    ],
+    "ownerId": 5,
+    "city": "Toronto",
+    "country": "Canada"
+  },
+  {
+    "id": 44,
+    "name": "Perry PLC Hotel",
+    "logo": "/api/upload/misc/logos/3.png",
+    "address": "7313 Jason Avenue Apt. 286\nSouth John, ME 70387",
+    "starRating": 4,
+    "images": [
+      "/api/upload/misc/generic/8.jpg",
+      "/api/upload/misc/generic/6.jpg",
+      "/api/upload/misc/generic/3.jpg"
+    ],
+    "ownerId": 4,
+    "city": "Los Angeles",
+    "country": "United States"
+  },
+  {
+    "id": 45,
+    "name": "Brown Ltd Hotel",
+    "logo": "/api/upload/misc/logos/1.png",
+    "address": "6552 Munoz Expressway Apt. 425\nNorth Lucas, NM 64771",
+    "starRating": 4,
+    "images": [
+      "/api/upload/misc/generic/10.jpg",
+      "/api/upload/misc/generic/7.jpg",
+      "/api/upload/misc/generic/10.jpg"
+    ],
+    "ownerId": 1,
+    "city": "Tokyo",
+    "country": "Japan"
+  },
+  {
+    "id": 46,
+    "name": "Barrett Group Hotel",
+    "logo": "/api/upload/misc/logos/3.png",
+    "address": "PSC 0867, Box 5541\nAPO AE 72410",
+    "starRating": 4,
+    "images": [
+      "/api/upload/misc/generic/4.jpg",
+      "/api/upload/misc/generic/10.jpg",
+      "/api/upload/misc/generic/6.jpg"
+    ],
+    "ownerId": 10,
+    "city": "Seoul",
+    "country": "South Korea"
+  },
+  {
+    "id": 47,
+    "name": "Bell, Richardson and Barnes Hotel",
+    "logo": "/api/upload/misc/logos/4.png",
+    "address": "1686 Hines Light\nCarterside, DC 92885",
+    "starRating": 5,
+    "images": [
+      "/api/upload/misc/generic/7.jpg",
+      "/api/upload/misc/generic/6.jpg",
+      "/api/upload/misc/generic/7.jpg"
+    ],
+    "ownerId": 4,
+    "city": "Toronto",
+    "country": "Canada"
+  },
+  {
+    "id": 48,
+    "name": "Ross-Stevens Hotel",
+    "logo": "/api/upload/misc/logos/5.png",
+    "address": "1242 Jeffery Mountain Apt. 080\nJessicachester, ND 42013",
+    "starRating": 5,
+    "images": [
+      "/api/upload/misc/generic/7.jpg",
+      "/api/upload/misc/generic/1.jpg",
+      "/api/upload/misc/generic/3.jpg"
+    ],
+    "ownerId": 9,
+    "city": "Seoul",
+    "country": "South Korea"
+  },
+  {
+    "id": 49,
+    "name": "Taylor, Johnson and Knight Hotel",
+    "logo": "/api/upload/misc/logos/5.png",
+    "address": "4219 Brittany Ferry\nPort Edward, MT 64960",
+    "starRating": 5,
+    "images": [
+      "/api/upload/misc/generic/6.jpg",
+      "/api/upload/misc/generic/1.jpg",
+      "/api/upload/misc/generic/6.jpg"
+    ],
+    "ownerId": 10,
+    "city": "Los Angeles",
+    "country": "United States"
+  },
+  {
+    "id": 50,
+    "name": "Burgess-Gonzalez Hotel",
+    "logo": "/api/upload/misc/logos/6.png",
+    "address": "PSC 5951, Box 0209\nAPO AP 14174",
+    "starRating": 4,
+    "images": [
+      "/api/upload/misc/generic/10.jpg",
+      "/api/upload/misc/generic/4.jpg",
+      "/api/upload/misc/generic/5.jpg"
+    ],
+    "ownerId": 9,
+    "city": "Tokyo",
+    "country": "Japan"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "firstName": "Emily",
+    "lastName": "Woods",
+    "email": "rrosario@smith.com",
+    "password": "$2b$10$3di4lKHPxoRiHbHizDskmezy3UEt5/iP8PXpo9HgOypv3FFYd.iDC",
+    "profilePicture": "/api/upload/misc/logos/1.png",
+    "phone": "213.792.0213",
+    "role": "HOTEL_OWNER"
+  },
+  {
+    "id": 2,
+    "firstName": "Diana",
+    "lastName": "Molina",
+    "email": "merickson@doyle.com",
+    "password": "$2b$10$3di4lKHPxoRiHbHizDskmezy3UEt5/iP8PXpo9HgOypv3FFYd.iDC",
+    "profilePicture": "/api/upload/misc/logos/2.png",
+    "phone": "(445)002-7818x692",
+    "role": "HOTEL_OWNER"
+  },
+  {
+    "id": 3,
+    "firstName": "Christy",
+    "lastName": "Dean",
+    "email": "ogibson@hotmail.com",
+    "password": "$2b$10$3di4lKHPxoRiHbHizDskmezy3UEt5/iP8PXpo9HgOypv3FFYd.iDC",
+    "profilePicture": "/api/upload/misc/logos/3.png",
+    "phone": "448-104-0609x85276",
+    "role": "HOTEL_OWNER"
+  },
+  {
+    "id": 4,
+    "firstName": "Leah",
+    "lastName": "Washington",
+    "email": "qaguilar@parsons.com",
+    "password": "$2b$10$3di4lKHPxoRiHbHizDskmezy3UEt5/iP8PXpo9HgOypv3FFYd.iDC",
+    "profilePicture": "/api/upload/misc/logos/4.png",
+    "phone": "+1-816-208-0937x0089",
+    "role": "HOTEL_OWNER"
+  },
+  {
+    "id": 5,
+    "firstName": "Mark",
+    "lastName": "Moore",
+    "email": "sschmidt@snyder-strickland.org",
+    "password": "$2b$10$3di4lKHPxoRiHbHizDskmezy3UEt5/iP8PXpo9HgOypv3FFYd.iDC",
+    "profilePicture": "/api/upload/misc/logos/5.png",
+    "phone": "161.719.7570x021",
+    "role": "HOTEL_OWNER"
+  },
+  {
+    "id": 6,
+    "firstName": "Brian",
+    "lastName": "Bradley",
+    "email": "ferrellsusan@olson-gonzalez.net",
+    "password": "$2b$10$3di4lKHPxoRiHbHizDskmezy3UEt5/iP8PXpo9HgOypv3FFYd.iDC",
+    "profilePicture": "/api/upload/misc/logos/6.png",
+    "phone": "065.013.2895x0725",
+    "role": "HOTEL_OWNER"
+  },
+  {
+    "id": 7,
+    "firstName": "Heather",
+    "lastName": "Hansen",
+    "email": "jonescarmen@gmail.com",
+    "password": "$2b$10$3di4lKHPxoRiHbHizDskmezy3UEt5/iP8PXpo9HgOypv3FFYd.iDC",
+    "profilePicture": "/api/upload/misc/logos/7.png",
+    "phone": "613-049-2616x671",
+    "role": "HOTEL_OWNER"
+  },
+  {
+    "id": 8,
+    "firstName": "Krystal",
+    "lastName": "Gonzalez",
+    "email": "patricksmith@acevedo.com",
+    "password": "$2b$10$3di4lKHPxoRiHbHizDskmezy3UEt5/iP8PXpo9HgOypv3FFYd.iDC",
+    "profilePicture": "/api/upload/misc/logos/8.png",
+    "phone": "+1-279-204-5156x900",
+    "role": "HOTEL_OWNER"
+  },
+  {
+    "id": 9,
+    "firstName": "Samantha",
+    "lastName": "Davis",
+    "email": "cbutler@bell-fletcher.com",
+    "password": "$2b$10$3di4lKHPxoRiHbHizDskmezy3UEt5/iP8PXpo9HgOypv3FFYd.iDC",
+    "profilePicture": "/api/upload/misc/logos/9.png",
+    "phone": "1848881156",
+    "role": "HOTEL_OWNER"
+  },
+  {
+    "id": 10,
+    "firstName": "Brittany",
+    "lastName": "Perez",
+    "email": "jacquelinedixon@smith-rivera.com",
+    "password": "$2b$10$3di4lKHPxoRiHbHizDskmezy3UEt5/iP8PXpo9HgOypv3FFYd.iDC",
+    "profilePicture": "/api/upload/misc/logos/10.png",
+    "phone": "837-074-5310",
+    "role": "HOTEL_OWNER"
+  }
+]

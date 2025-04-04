@@ -1,0 +1,137 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  VISITOR
+  USER
+  HOTEL_OWNER
+}
+
+enum PaymentStatus {
+  PENDING
+  SUCCESS
+  FAILED
+}
+
+enum BookingStatus {
+  PENDING
+  CONFIRMED
+  CANCELLED
+  UNKNOWN
+}
+
+enum FlightStatus {
+  SCHEDULED
+  CANCELLED
+  DELAYED
+  DEPARTED
+  LANDED
+}
+
+model City {
+  city    String
+  country String
+  hotels  Hotel[]
+  @@unique([city, country])
+}
+
+model Airport {
+  id      String    @id
+  code    String    @unique
+  name    String
+  city    String
+  country String
+}
+
+model User {
+  id             Int            @id @default(autoincrement())
+  firstName      String
+  lastName       String
+  email          String         @unique
+  password       String
+  profilePicture String?
+  phone          String?
+  role           Role           @default(USER) // Assign default role to regular users
+  bookings       Booking[]
+  createdAt      DateTime       @default(now())
+  updatedAt      DateTime       @updatedAt
+  hotels         Hotel[]
+  notifications  Notification[]
+}
+
+model Hotel {
+  id            Int            @id @default(autoincrement())
+  name          String
+  logo          String?
+  address       String
+  city          String
+  country       String
+  starRating    Int
+  images        Json
+  ownerId       Int?
+  cityRelation  City           @relation(fields: [city, country], references: [city, country], onDelete: Cascade, onUpdate: Cascade)
+  owner         User?          @relation(fields: [ownerId], references: [id], onDelete: Cascade, onUpdate: Cascade)
+  rooms         Room[]
+  notifications Notification[]
+  bookings      Booking[]
+}
+
+model Room {
+  id            Int       @id @default(autoincrement())
+  type          String    @default("Double")
+  amenities     Json
+  pricePerNight Float     @default(100.0)
+  images        Json
+  available     Boolean   @default(true)
+  hotelId       Int
+  hotel         Hotel     @relation(fields: [hotelId], references: [id], onDelete: Cascade, onUpdate: Cascade)
+  bookings      Booking[]
+}
+
+model Booking {
+  id                Int            @id @default(autoincrement())
+  userId            Int
+  hotelId           Int?
+  roomId            Int?
+  bookStatus        BookingStatus  @default(PENDING)
+  flightStatus      FlightStatus   @default(SCHEDULED)
+  flightBookingInfo String?
+  checkIn           DateTime?
+  checkOut          DateTime?
+  createdAt         DateTime       @default(now())
+  user              User           @relation(fields: [userId], references: [id], onDelete: Cascade, onUpdate: Cascade)
+  hotel             Hotel?         @relation(fields: [hotelId], references: [id], onDelete: Cascade, onUpdate: Cascade)
+  room              Room?          @relation(fields: [roomId], references: [id], onDelete: Cascade, onUpdate: Cascade)
+  payment           Payment?
+  reference         String?
+}
+
+model Payment {
+  id         Int           @id @default(autoincrement())
+  bookingId  Int           @unique
+  booking    Booking       @relation(fields: [bookingId], references: [id], onDelete: Cascade, onUpdate: Cascade)
+  cardNumber String
+  expiryDate String
+  amount     Float
+  status     PaymentStatus @default(PENDING)
+  createdAt  DateTime      @default(now())
+  updatedAt  DateTime      @updatedAt
+}
+
+model Notification {
+  id           Int      @id @default(autoincrement())
+  userId       Int?
+  hotelOwnerId Int?
+  message      String
+  isRead       Boolean  @default(false)
+  createdAt    DateTime @default(now())
+  User         User?    @relation(fields: [userId], references: [id])
+  Hotel        Hotel?   @relation(fields: [hotelId], references: [id])
+  hotelId      Int?
+}

@@ -1,0 +1,260 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "dynamicRoutes": [
+    {
+      "page": "/api/hotel-owner/my-hotels/[id]",
+      "regex": "^/api/hotel\\-owner/my\\-hotels/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/api/hotel\\-owner/my\\-hotels/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/api/hotel-owner/my-hotels/[id]/add-room",
+      "regex": "^/api/hotel\\-owner/my\\-hotels/([^/]+?)/add\\-room(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/api/hotel\\-owner/my\\-hotels/(?<nxtPid>[^/]+?)/add\\-room(?:/)?$"
+    },
+    {
+      "page": "/api/hotel-owner/my-hotels/[id]/bookings",
+      "regex": "^/api/hotel\\-owner/my\\-hotels/([^/]+?)/bookings(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/api/hotel\\-owner/my\\-hotels/(?<nxtPid>[^/]+?)/bookings(?:/)?$"
+    },
+    {
+      "page": "/api/hotel-owner/my-hotels/[id]/bookings/[bookingId]",
+      "regex": "^/api/hotel\\-owner/my\\-hotels/([^/]+?)/bookings/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid",
+        "nxtPbookingId": "nxtPbookingId"
+      },
+      "namedRegex": "^/api/hotel\\-owner/my\\-hotels/(?<nxtPid>[^/]+?)/bookings/(?<nxtPbookingId>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/api/hotel-owner/my-hotels/[id]/[roomId]",
+      "regex": "^/api/hotel\\-owner/my\\-hotels/([^/]+?)/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid",
+        "nxtProomId": "nxtProomId"
+      },
+      "namedRegex": "^/api/hotel\\-owner/my\\-hotels/(?<nxtPid>[^/]+?)/(?<nxtProomId>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/api/hotel-owner/my-hotels/[id]/[roomId]/edit",
+      "regex": "^/api/hotel\\-owner/my\\-hotels/([^/]+?)/([^/]+?)/edit(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid",
+        "nxtProomId": "nxtProomId"
+      },
+      "namedRegex": "^/api/hotel\\-owner/my\\-hotels/(?<nxtPid>[^/]+?)/(?<nxtProomId>[^/]+?)/edit(?:/)?$"
+    },
+    {
+      "page": "/api/upload/[...file]",
+      "regex": "^/api/upload/(.+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPfile": "nxtPfile"
+      },
+      "namedRegex": "^/api/upload/(?<nxtPfile>.+?)(?:/)?$"
+    },
+    {
+      "page": "/api/visitor/hotels/[id]",
+      "regex": "^/api/visitor/hotels/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/api/visitor/hotels/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/api/visitor/hotels/[id]/[roomId]",
+      "regex": "^/api/visitor/hotels/([^/]+?)/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid",
+        "nxtProomId": "nxtProomId"
+      },
+      "namedRegex": "^/api/visitor/hotels/(?<nxtPid>[^/]+?)/(?<nxtProomId>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/ui/dashboard/all-hotels/[id]",
+      "regex": "^/ui/dashboard/all\\-hotels/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/ui/dashboard/all\\-hotels/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/ui/dashboard/all-hotels/[id]/[roomId]",
+      "regex": "^/ui/dashboard/all\\-hotels/([^/]+?)/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid",
+        "nxtProomId": "nxtProomId"
+      },
+      "namedRegex": "^/ui/dashboard/all\\-hotels/(?<nxtPid>[^/]+?)/(?<nxtProomId>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/ui/dashboard/my-hotels/[id]",
+      "regex": "^/ui/dashboard/my\\-hotels/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/ui/dashboard/my\\-hotels/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/ui/dashboard/my-hotels/[id]/add-room",
+      "regex": "^/ui/dashboard/my\\-hotels/([^/]+?)/add\\-room(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/ui/dashboard/my\\-hotels/(?<nxtPid>[^/]+?)/add\\-room(?:/)?$"
+    },
+    {
+      "page": "/ui/dashboard/my-hotels/[id]/bookings",
+      "regex": "^/ui/dashboard/my\\-hotels/([^/]+?)/bookings(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/ui/dashboard/my\\-hotels/(?<nxtPid>[^/]+?)/bookings(?:/)?$"
+    },
+    {
+      "page": "/ui/dashboard/my-hotels/[id]/[roomId]",
+      "regex": "^/ui/dashboard/my\\-hotels/([^/]+?)/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid",
+        "nxtProomId": "nxtProomId"
+      },
+      "namedRegex": "^/ui/dashboard/my\\-hotels/(?<nxtPid>[^/]+?)/(?<nxtProomId>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/ui/dashboard/add-hotel",
+      "regex": "^/ui/dashboard/add\\-hotel(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/ui/dashboard/add\\-hotel(?:/)?$"
+    },
+    {
+      "page": "/ui/dashboard/all-hotels",
+      "regex": "^/ui/dashboard/all\\-hotels(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/ui/dashboard/all\\-hotels(?:/)?$"
+    },
+    {
+      "page": "/ui/dashboard/booking",
+      "regex": "^/ui/dashboard/booking(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/ui/dashboard/booking(?:/)?$"
+    },
+    {
+      "page": "/ui/dashboard/bookings",
+      "regex": "^/ui/dashboard/bookings(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/ui/dashboard/bookings(?:/)?$"
+    },
+    {
+      "page": "/ui/dashboard/checkout",
+      "regex": "^/ui/dashboard/checkout(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/ui/dashboard/checkout(?:/)?$"
+    },
+    {
+      "page": "/ui/dashboard/flights",
+      "regex": "^/ui/dashboard/flights(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/ui/dashboard/flights(?:/)?$"
+    },
+    {
+      "page": "/ui/dashboard/my-hotels",
+      "regex": "^/ui/dashboard/my\\-hotels(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/ui/dashboard/my\\-hotels(?:/)?$"
+    },
+    {
+      "page": "/ui/dashboard/notifications",
+      "regex": "^/ui/dashboard/notifications(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/ui/dashboard/notifications(?:/)?$"
+    },
+    {
+      "page": "/ui/dashboard/notifications/badge",
+      "regex": "^/ui/dashboard/notifications/badge(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/ui/dashboard/notifications/badge(?:/)?$"
+    },
+    {
+      "page": "/ui/dashboard/profile",
+      "regex": "^/ui/dashboard/profile(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/ui/dashboard/profile(?:/)?$"
+    },
+    {
+      "page": "/ui/error/session-expired",
+      "regex": "^/ui/error/session\\-expired(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/ui/error/session\\-expired(?:/)?$"
+    },
+    {
+      "page": "/ui/login",
+      "regex": "^/ui/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/ui/login(?:/)?$"
+    },
+    {
+      "page": "/ui/register",
+      "regex": "^/ui/register(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/ui/register(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "RSC",
+    "varyHeader": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "prefetchHeader": "Next-Router-Prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "Next-Router-Segment-Prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  },
+  "rewrites": []
+}
