@@ -23,7 +23,10 @@ export default function NotificationBadge() {
   const fetchUnreadCount = useCallback(async () => {
     try {
       setIsLoading(true);
-      const res = await fetchWithAuth("/api/user/notifications/badge");
+      const res = await fetchWithAuth("/api/user/notifications/badge", {
+        method: "GET",
+        credentials: "include",
+      });
       if (!res.ok) {
         if (res.status === 440) {
           router.push("/ui/error/session-expired");

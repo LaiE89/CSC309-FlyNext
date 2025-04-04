@@ -192,6 +192,7 @@ export default function AddHotelForm() {
             
             res = await fetchWithAuth(`/api/user/add-hotel`, {
                 method: "PATCH",
+                credentials: "include",
                 body: JSON.stringify({
                     id: updatedData.hotel.id,
                     images: imageUrls,

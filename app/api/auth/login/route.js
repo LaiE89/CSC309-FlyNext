@@ -17,11 +17,11 @@ export async function POST(request) {
             // Clear cookies
             response.headers.set(
                 "Set-Cookie",
-                `token=; HttpOnly; Path=/; Max-Age=0; Secure`
+                `token=; HttpOnly; Path=/; Max-Age=0;`
             );
             response.headers.append(
                 "Set-Cookie",
-                `refresh_token=; HttpOnly; Path=/; Max-Age=0; Secure`
+                `refresh_token=; HttpOnly; Path=/; Max-Age=0;`
             );
             return response;
         }
@@ -61,12 +61,12 @@ export async function POST(request) {
         });
         response.headers.set(
             "Set-Cookie",
-            `token=${accessToken}; HttpOnly; Path=/; Max-Age=${getTokenExpiry(true)}; Secure`
+            `token=${accessToken}; HttpOnly; Path=/; Max-Age=${getTokenExpiry(true)};`
         );
 
         response.headers.append(
             "Set-Cookie",
-            `refresh_token=${refreshToken}; HttpOnly; Path=/; Max-Age=${getTokenExpiry(false)}; Secure`
+            `refresh_token=${refreshToken}; HttpOnly; Path=/; Max-Age=${getTokenExpiry(false)};`
         );
 
         return response;

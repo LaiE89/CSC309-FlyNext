@@ -28,7 +28,7 @@ export async function POST(request) {
 
     response.headers.set(
         "Set-Cookie",
-        `token=${accessToken}; HttpOnly; Path=/; Max-Age=${getTokenExpiry(false)}; Secure`
+        `token=${accessToken}; HttpOnly; Path=/; Max-Age=${getTokenExpiry(false)};`
     );
 
     return response;

@@ -8,12 +8,12 @@ export async function POST() {
 
     response.headers.set(
         "Set-Cookie",
-        `token=; HttpOnly; Path=/; Max-Age=0; Secure`
+        `token=; HttpOnly; Path=/; Max-Age=0;`
     );
 
     response.headers.append(
         "Set-Cookie",
-        `refresh_token=; HttpOnly; Path=/; Max-Age=0; Secure`
+        `refresh_token=; HttpOnly; Path=/; Max-Age=0;`
     );
 
     return response;
