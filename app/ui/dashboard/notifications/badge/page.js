@@ -4,15 +4,6 @@ import { fetchWithAuth } from "@/utils/auth";
 import { useRouter } from "next/navigation";
 import { useTheme } from "../../themecontext";
 
-// Debounce function
-const debounce = (func, wait) => {
-  let timeout;
-  return (...args) => {
-    clearTimeout(timeout);
-    timeout = setTimeout(() => func(...args), wait);
-  };
-};
-
 export default function NotificationBadge() {
   const router = useRouter();
   const { theme } = useTheme();
@@ -23,10 +14,8 @@ export default function NotificationBadge() {
   const fetchUnreadCount = useCallback(async () => {
     try {
       setIsLoading(true);
-      const res = await fetchWithAuth("/api/user/notifications/badge", {
-        method: "GET",
-        credentials: "include",
-      });
+      // Append a timestamp to avoid caching issues
+      const res = await fetchWithAuth("/api/user/notifications/badge?ts=" + Date.now());
       if (!res.ok) {
         if (res.status === 440) {
           router.push("/ui/error/session-expired");
@@ -45,40 +34,22 @@ export default function NotificationBadge() {
     }
   }, [router]);
 
-  const debouncedFetch = useCallback(
-    () => debounce(fetchUnreadCount, 1000)(),
-    [fetchUnreadCount]
-  );
-
   useEffect(() => {
-    let isMounted = true;
-    let timeoutId;
-
-    const pollNotifications = () => {
-      if (isMounted) {
-        debouncedFetch();
-        timeoutId = setTimeout(pollNotifications, 30000); 
-      }
-    };
-
-    debouncedFetch();
-    timeoutId = setTimeout(pollNotifications, 30000);
-
-    return () => {
-      isMounted = false;
-      if (timeoutId) {
-        clearTimeout(timeoutId);
-      }
-    };
-  }, [debouncedFetch]);
+    fetchUnreadCount();
+    const intervalId = setInterval(fetchUnreadCount, 10000);
+    return () => clearInterval(intervalId);
+  }, [fetchUnreadCount]);
 
   return (
     <div className="relative">
-      <div title="Notifications" className={`p-2 rounded-full transition-colors ${
-          theme === 'dark' 
-              ? 'hover:bg-gray-700 text-gray-200' 
-              : 'hover:bg-gray-200 text-gray-600'
-      }`}>
+      <div
+        title="Notifications"
+        className={`p-2 rounded-full transition-colors ${
+          theme === 'dark'
+            ? 'hover:bg-gray-700 text-gray-200'
+            : 'hover:bg-gray-200 text-gray-600'
+        }`}
+      >
         <svg 
           className={`w-5 h-5 ${theme === 'dark' ? 'text-white' : 'text-gray-800'}`}
           fill="none" 

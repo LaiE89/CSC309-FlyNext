@@ -205,7 +205,7 @@ export default function RoomDetails() {
                     onClick={handleEdit}
                     disabled={deleted}
                     className={`py-2 px-5 rounded-lg transition ${
-                        deleted ? ('opacity-50 cursor-not-allowed') : (theme === 'dark' 
+                        deleted ? ('bg-yellow-400 cursor-not-allowed') : (theme === 'dark' 
                             ? 'bg-yellow-600 hover:bg-yellow-700 text-white' 
                             : 'bg-yellow-500 hover:bg-yellow-600 text-white')
                     }`}
@@ -217,7 +217,7 @@ export default function RoomDetails() {
                     onClick={handleDelete}
                     disabled={deleted}
                     className={`py-2 px-5 rounded-lg transition ${
-                        deleted ? ('opacity-50 cursor-not-allowed') : (theme === 'dark' 
+                        deleted ? ('bg-red-400 cursor-not-allowed') : (theme === 'dark' 
                             ? 'bg-red-600 hover:bg-red-700 text-white' 
                             : 'bg-red-500 hover:bg-red-600 text-white')
                     }`}

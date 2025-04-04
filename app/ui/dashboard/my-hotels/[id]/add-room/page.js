@@ -323,9 +323,10 @@ export default function AddRoomForm() {
                         type="submit"
                         disabled={loading}
                         className={`py-2 px-5 rounded-lg transition ${
-                            theme === 'dark' 
+                            loading ? ('bg-blue-400 cursor-not-allowed') :
+                            (theme === 'dark' 
                                 ? 'bg-blue-600 hover:bg-blue-700 text-white' 
-                                : 'bg-blue-500 hover:bg-blue-600 text-white'
+                                : 'bg-blue-500 hover:bg-blue-600 text-white')
                         }`}
                     >
                         {loading ? "Adding..." : "Add Room"}

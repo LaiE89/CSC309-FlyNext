@@ -2,14 +2,12 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { fetchWithAuth } from "@/utils/auth";
-import NotificationBadge from "@/app/ui/dashboard/notifications/badge/page";
 import { useTheme } from "../themecontext";
-import { useUser } from "../usercontext";
+import NotificationBadge from "@/app/ui/dashboard/notifications/badge/page";
 
 export default function NotificationsPage() {
   const router = useRouter();
   const { theme } = useTheme();
-  const { refreshBadge } = useUser();
   const [notifications, setNotifications] = useState([]);
   const [error, setError] = useState(null);
   const [showBadge, setShowBadge] = useState(true);
@@ -55,7 +53,6 @@ export default function NotificationsPage() {
           n.id === notificationId ? { ...n, isRead: true } : n
         )
       );
-      refreshBadge();
       setShowBadge(false);
       setTimeout(() => {
         setShowBadge(true);

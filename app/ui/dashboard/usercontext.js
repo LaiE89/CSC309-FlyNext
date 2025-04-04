@@ -7,14 +7,6 @@ const UserContext = createContext();
 export function UserProvider({ children }) {
     const [user, setUser] = useState(null);
     const [userRole, setUserRole] = useState("VISITOR");
-    const [showBadge, setShowBadge] = useState(true);
-
-    const refreshBadge = () => {
-        setShowBadge(false);
-        setTimeout(() => {
-            setShowBadge(true);
-        }, 100);
-    };
 
     useEffect(() => {
         async function fetchProfile() {
@@ -43,7 +35,7 @@ export function UserProvider({ children }) {
     }, []);
 
     return (
-        <UserContext.Provider value={{ user, userRole, setUser, setUserRole, refreshBadge }}>
+        <UserContext.Provider value={{ user, userRole, setUser, setUserRole }}>
             {children}
         </UserContext.Provider>
     );
